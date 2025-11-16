@@ -1,0 +1,112 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.3.6",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.3.6",
+      "isInstalled": true,
+      "creationTime": "11/15/2025 00:02:48 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "App.Application": {
+      "path": "src/App.Application/App.Application.abppkg",
+      "folder": "src"
+    },
+    "App.Application.Tests": {
+      "path": "test/App.Application.Tests/App.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "App.Domain.Shared": {
+      "path": "src/App.Domain.Shared/App.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "App.Application.Contracts": {
+      "path": "src/App.Application.Contracts/App.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "App.HttpApi": {
+      "path": "src/App.HttpApi/App.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "App.HttpApi.Client": {
+      "path": "src/App.HttpApi.Client/App.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "App.Web": {
+      "path": "src/App.Web/App.Web.abppkg",
+      "folder": "src"
+    },
+    "App.Web.Tests": {
+      "path": "test/App.Web.Tests/App.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "App.EntityFrameworkCore.Tests": {
+      "path": "test/App.EntityFrameworkCore.Tests/App.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "App.EntityFrameworkCore": {
+      "path": "src/App.EntityFrameworkCore/App.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "App.TestBase": {
+      "path": "test/App.TestBase/App.TestBase.abppkg",
+      "folder": "test"
+    },
+    "App.Domain.Tests": {
+      "path": "test/App.Domain.Tests/App.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "App.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/App.HttpApi.Client.ConsoleTestApp/App.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "App.DbMigrator": {
+      "path": "src/App.DbMigrator/App.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "App.Domain": {
+      "path": "src/App.Domain/App.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
