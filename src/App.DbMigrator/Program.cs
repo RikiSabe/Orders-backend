@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Events;
+using DotNetEnv;
 
 namespace App.DbMigrator;
 
@@ -11,6 +12,8 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        Env.Load("../../.env");
+
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Information()
             .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)

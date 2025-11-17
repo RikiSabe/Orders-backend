@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
+using DotNetEnv;
 
 namespace App.Web;
 
@@ -12,6 +13,8 @@ public class Program
 {
     public async static Task<int> Main(string[] args)
     {
+        Env.Load("../../.env");
+
         Log.Logger = new LoggerConfiguration()
             .WriteTo.Async(c => c.File("Logs/logs.txt"))
             .WriteTo.Async(c => c.Console())
